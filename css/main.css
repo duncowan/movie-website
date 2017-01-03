@@ -1,0 +1,224 @@
+/*general*/
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 10pt;
+	margin: 0 auto;
+	padding: 10px;
+	width: 790px;
+	color: #000000;
+	background-color: #DDDDDD;
+}
+
+body > * {
+	margin-bottom: 5px;
+	border: 1px solid black;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 10px;
+	color: #000000;
+	background-color: #EEEEEE;
+}
+
+h2,h1 {
+	font-family: uppereastsideregular, Verdana, sans-serif;
+}
+
+/*header*/
+header {
+	color: #000000;
+    background: url('../images/headerBackground.png') no-repeat #EEEEEE;
+}
+
+h1 {
+	font-size: 36pt;
+	margin: 0px;
+}
+
+/*user login/logout*/
+#user {
+    margin-bottom: 10px;
+    border: none;
+    line-height: 27px;
+    height: 27px;
+    border-radius: 0px;
+    text-align: right;
+	font-size: 8pt;
+}
+
+#loginForm #errors {
+    display: inline-block;
+    margin: 0;
+    color: red;
+}
+
+#user #loginPassword,
+#user #loginUser {
+    width: 120px;
+}
+
+#user #logout {
+    font-size: 12pt;
+}
+
+#user #logout > * {
+    display: inline-block;
+    margin: 0;
+}
+
+
+/*navigation*/
+nav {
+	float: left;
+	font-size: 12pt;
+	padding: 10px;
+	width: 135px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+	list-style: none;
+}
+
+nav ul li {
+    margin-top: 10px;
+	padding-left: 20px;
+	text-indent: -20px;
+}
+
+/*main content*/
+#main {
+	float: right;
+	padding: 10px;
+	width: 600px;
+}
+
+h2 {
+	font-size: 24pt;
+}
+
+/*[NOT USED] front page film selection*/
+#main .frontpage {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#main .frontpage li {
+    float: left;
+    display: inline;
+    width: 33%;
+}
+
+#main .frontpage li a{
+    display: block;
+    text-align: center;
+}
+
+#main .frontpage li img{
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+/*category carousel*/
+#main #categorycarousel {
+    display: block;
+}
+
+#main #categorycarousel a {
+    float: left;
+    display: inline-block;
+    text-align: center;
+    width: 0%;
+    opacity: 0;
+}
+
+#main #categorycarousel a figure {
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#main #categorycarousel a figure img {
+    display: block;
+    margin: auto;
+}
+
+/*[TEMP] center category carousel*/
+/*#main #categorycarousel a{*/
+    /*display: block;*/
+	/*text-align: center;*/
+/*}*/
+
+/*film sections*/
+#main .film {
+    clear: both;
+}
+
+h3 {
+	font-size: 12pt;
+}
+
+#main .film img {
+	float: left;
+	padding: 10px;
+}
+
+#main .film:nth-of-type(even) img {
+	float: right;
+}
+
+/*cart*/
+#main #cartItems {
+    float: left;
+    width: 40%;
+}
+
+#main #checkoutForm {
+    border-left: 1px solid black;
+    padding-left: 10px;
+    float: right;
+    width: 55%;
+}
+
+#main form #errors {
+    color: red;
+}
+
+#main #checkoutForm fieldset {
+    border: none;
+}
+
+#main #checkoutForm label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+#main #checkoutForm input[type='text'],
+#main #checkoutForm input[type='email'] {
+    width: 170px;
+}
+
+/* register */
+#main .onPageForm label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+}
+
+#main .onPageForm input {
+    width: 200px;
+}
+
+#main .onPageForm input[type="submit"] {
+    width: 100px;
+    margin-left: 247px;
+}
+
+/*footer*/
+footer {
+	clear: both;
+	font-size: 8pt;
+	text-align: right;
+}

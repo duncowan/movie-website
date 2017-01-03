@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<reviews>
+  <review>
+    <user>Bob</user>
+    <rating>5</rating>
+  </review>
+  <review>
+    <user>Frank</user>
+    <rating>5</rating>
+  </review>
+<review><user>user1</user><rating>3</rating></review><review><user>user5</user><rating>5</rating></review></reviews>

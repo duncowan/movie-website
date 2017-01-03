@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<orders>
+
+<order><username>user1</username><delivery><name>erger</name><email>NOT PROVIDED</email><address>erg</address><city>erg</city><postcode>3432</postcode></delivery><items><item><title>The Day of the Triffids (1962)</title><price>7.99</price></item></items></order><order><username>user2</username><delivery><name>eweweww34h</name><email>NOT PROVIDED</email><address>theag</address><city>erg</city><postcode>3433</postcode></delivery><items><item><title>Vertigo (1958)</title><price>16.99</price></item><item><title>Dial M for Murder (1954)</title><price>12.99</price></item></items></order><order><username>user2</username><delivery><name>bvbnb</name><email>NOT PROVIDED</email><address>bnbn</address><city>bnfddd</city><postcode>3433</postcode></delivery><items><item><title>Metropolis (1927)</title><price>19.99</price></item></items></order></orders>
